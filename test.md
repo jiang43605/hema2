@@ -34,4 +34,4 @@ class Example extends React.Component {
 > Quote from shakespeare:
 > 
 > > To be or not to be, that is a question
->
+> 用户可以在文本中写 **代码**, 比如 `console.log('test')`, 也可以添加一个链接 [测试](http://example.com).

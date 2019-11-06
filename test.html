@@ -2,26 +2,26 @@
 <h2>副标题</h2>
 <p>这是一段文本, 用户可以在文本中写 <strong>代码</strong>, 比如 <code>console.log('test')</code>, 也可以添加一个链接 <a href="http://example.com">测试</a>.</p>
 <p>这是一张图片:</p>
-<p>!<a href="https://img.alicdn.com/tfs/TB1MaLKRXXXXXaWXFXXXXXXXXXX-480-260.png">tmall</a></p>
+<p><img href="https://img.alicdn.com/tfs/TB1MaLKRXXXXXaWXFXXXXXXXXXX-480-260.png" alt="tmall"/></p>
 <p>在这里, 你还可以写一段代码:</p>
-<p><code>`</code>js</p>
-<p>const markdown = `</p>
-<h1>标题一</h1>
-<h2>标题二</h2>
-<p>`</p>
-<p>class Example extends React.Component { </p>
-<p>  render () {</p>
-<p>    return (</p>
-<p>      <div></p>
-<p>      	markdown code:</p>
-<p>      	<pre>{markdown}</pre></p>
-<p>      </div></p>
-<p>    )</p>
-<p>  } </p>
-<p>}</p>
-<p><code>`</code></p>
+<pre><code>
+const markdown = `
+# 标题一
+## 标题二
+`
+class Example extends React.Component { 
+  render () {
+    return (
+      &lt;div&gt;
+      	markdown code:
+      	&lt;pre&gt;{markdown}&lt;/pre&gt;
+      &lt;/div&gt;
+    )
+  } 
+}
+</code></pre>
 <p>下面是一段引用:</p>
-<p>> Quote from shakespeare:</p>
-<p>> </p>
-<p>> > To be or not to be, that is a question</p>
-<p>></p>
+<blockquote><p>Quote from shakespeare:</p>
+<p></p>
+<p>> To be or not to be, that is a question</p>
+<p>用户可以在文本中写 <strong>代码</strong>, 比如 <code>console.log('test')</code>, 也可以添加一个链接 <a href="http://example.com">测试</a>.</p></blockquote>
